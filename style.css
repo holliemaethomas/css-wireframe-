@@ -19,7 +19,7 @@ header img {
 
 }
 
-header ul li {
+nav ul li {
   display: inline-block;
   margin-top: 40px;
   margin-right: 70px;
@@ -27,4 +27,39 @@ header ul li {
 
 a {
   color: lightgray;
+}
+
+main {
+  width: 960px;
+  margin: 20; auto;
+}
+
+#display {
+  display: inline-block;
+}
+
+section img {
+  float: left;
+}
+
+section div {
+  float: left;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20pt;
+}
+
+section div p {
+  overflow: scroll;
+}
+
+button:hover {
+  background-color: lightskyblue;
+}
+
+footer {
+  clear: both;
 }
